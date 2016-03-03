@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		13B24E1E1C8600390092F3E5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B24E1D1C8600390092F3E5 /* main.m */; };
-		13B24E211C8600390092F3E5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B24E201C8600390092F3E5 /* AppDelegate.m */; };
-		13B24E241C8600390092F3E5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B24E231C8600390092F3E5 /* ViewController.m */; };
-		13B24E271C8600390092F3E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13B24E251C8600390092F3E5 /* Main.storyboard */; };
-		13B24E291C8600390092F3E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B24E281C8600390092F3E5 /* Assets.xcassets */; };
-		13B24E2C1C8600390092F3E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13B24E2A1C8600390092F3E5 /* LaunchScreen.storyboard */; };
 		13B24E371C8600390092F3E5 /* MDevCon2015DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B24E361C8600390092F3E5 /* MDevCon2015DemoTests.m */; };
+		13B24E431C8898000092F3E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B24E421C8898000092F3E5 /* AppDelegate.swift */; };
+		13B24E451C8899870092F3E5 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B24E441C8899870092F3E5 /* RootViewController.swift */; };
+		13B24E471C88A04B0092F3E5 /* CorgiCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B24E461C88A04B0092F3E5 /* CorgiCollectionViewCell.swift */; };
+		13B24E4F1C88A7210092F3E5 /* corgi0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 13B24E4B1C88A7210092F3E5 /* corgi0.jpg */; };
+		13B24E501C88A7210092F3E5 /* corgi1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 13B24E4C1C88A7210092F3E5 /* corgi1.jpg */; };
+		13B24E511C88A7210092F3E5 /* corgi2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 13B24E4D1C88A7210092F3E5 /* corgi2.jpg */; };
+		13B24E521C88A7210092F3E5 /* corgi3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 13B24E4E1C88A7210092F3E5 /* corgi3.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,17 +31,18 @@
 /* Begin PBXFileReference section */
 		13B24E191C8600390092F3E5 /* MDevCon2015Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MDevCon2015Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B24E1D1C8600390092F3E5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		13B24E1F1C8600390092F3E5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		13B24E201C8600390092F3E5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		13B24E221C8600390092F3E5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		13B24E231C8600390092F3E5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		13B24E261C8600390092F3E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		13B24E281C8600390092F3E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		13B24E2B1C8600390092F3E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		13B24E2D1C8600390092F3E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		13B24E321C8600390092F3E5 /* MDevCon2015DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MDevCon2015DemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B24E361C8600390092F3E5 /* MDevCon2015DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDevCon2015DemoTests.m; sourceTree = "<group>"; };
 		13B24E381C8600390092F3E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13B24E411C8897FF0092F3E5 /* MDevCon2015Demo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MDevCon2015Demo-Bridging-Header.h"; sourceTree = "<group>"; };
+		13B24E421C8898000092F3E5 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		13B24E441C8899870092F3E5 /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		13B24E461C88A04B0092F3E5 /* CorgiCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CorgiCollectionViewCell.swift; sourceTree = "<group>"; };
+		13B24E4B1C88A7210092F3E5 /* corgi0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = corgi0.jpg; sourceTree = "<group>"; };
+		13B24E4C1C88A7210092F3E5 /* corgi1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = corgi1.jpg; sourceTree = "<group>"; };
+		13B24E4D1C88A7210092F3E5 /* corgi2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = corgi2.jpg; sourceTree = "<group>"; };
+		13B24E4E1C88A7210092F3E5 /* corgi3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = corgi3.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +69,7 @@
 				13B24E1B1C8600390092F3E5 /* MDevCon2015Demo */,
 				13B24E351C8600390092F3E5 /* MDevCon2015DemoTests */,
 				13B24E1A1C8600390092F3E5 /* Products */,
+				69B2AA36FC4614F6270577A7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,15 +85,13 @@
 		13B24E1B1C8600390092F3E5 /* MDevCon2015Demo */ = {
 			isa = PBXGroup;
 			children = (
-				13B24E1F1C8600390092F3E5 /* AppDelegate.h */,
-				13B24E201C8600390092F3E5 /* AppDelegate.m */,
-				13B24E221C8600390092F3E5 /* ViewController.h */,
-				13B24E231C8600390092F3E5 /* ViewController.m */,
-				13B24E251C8600390092F3E5 /* Main.storyboard */,
-				13B24E281C8600390092F3E5 /* Assets.xcassets */,
-				13B24E2A1C8600390092F3E5 /* LaunchScreen.storyboard */,
+				13B24E4A1C88A7210092F3E5 /* Images */,
+				13B24E421C8898000092F3E5 /* AppDelegate.swift */,
+				13B24E441C8899870092F3E5 /* RootViewController.swift */,
+				13B24E461C88A04B0092F3E5 /* CorgiCollectionViewCell.swift */,
 				13B24E2D1C8600390092F3E5 /* Info.plist */,
 				13B24E1C1C8600390092F3E5 /* Supporting Files */,
+				13B24E411C8897FF0092F3E5 /* MDevCon2015Demo-Bridging-Header.h */,
 			);
 			path = MDevCon2015Demo;
 			sourceTree = "<group>";
@@ -109,6 +111,24 @@
 				13B24E381C8600390092F3E5 /* Info.plist */,
 			);
 			path = MDevCon2015DemoTests;
+			sourceTree = "<group>";
+		};
+		13B24E4A1C88A7210092F3E5 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				13B24E4B1C88A7210092F3E5 /* corgi0.jpg */,
+				13B24E4C1C88A7210092F3E5 /* corgi1.jpg */,
+				13B24E4D1C88A7210092F3E5 /* corgi2.jpg */,
+				13B24E4E1C88A7210092F3E5 /* corgi3.jpg */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		69B2AA36FC4614F6270577A7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -191,9 +211,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13B24E2C1C8600390092F3E5 /* LaunchScreen.storyboard in Resources */,
-				13B24E291C8600390092F3E5 /* Assets.xcassets in Resources */,
-				13B24E271C8600390092F3E5 /* Main.storyboard in Resources */,
+				13B24E521C88A7210092F3E5 /* corgi3.jpg in Resources */,
+				13B24E511C88A7210092F3E5 /* corgi2.jpg in Resources */,
+				13B24E501C88A7210092F3E5 /* corgi1.jpg in Resources */,
+				13B24E4F1C88A7210092F3E5 /* corgi0.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,9 +232,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13B24E241C8600390092F3E5 /* ViewController.m in Sources */,
-				13B24E211C8600390092F3E5 /* AppDelegate.m in Sources */,
+				13B24E431C8898000092F3E5 /* AppDelegate.swift in Sources */,
 				13B24E1E1C8600390092F3E5 /* main.m in Sources */,
+				13B24E451C8899870092F3E5 /* RootViewController.swift in Sources */,
+				13B24E471C88A04B0092F3E5 /* CorgiCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,25 +256,6 @@
 			targetProxy = 13B24E331C8600390092F3E5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		13B24E251C8600390092F3E5 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				13B24E261C8600390092F3E5 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		13B24E2A1C8600390092F3E5 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				13B24E2B1C8600390092F3E5 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		13B24E391C8600390092F3E5 /* Debug */ = {
@@ -338,22 +341,25 @@
 		13B24E3C1C8600390092F3E5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = MDevCon2015Demo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = benasher44.MDevCon2015Demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MDevCon2015Demo/MDevCon2015Demo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		13B24E3D1C8600390092F3E5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = MDevCon2015Demo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = benasher44.MDevCon2015Demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MDevCon2015Demo/MDevCon2015Demo-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -400,6 +406,7 @@
 				13B24E3D1C8600390092F3E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		13B24E3E1C8600390092F3E5 /* Build configuration list for PBXNativeTarget "MDevCon2015DemoTests" */ = {
 			isa = XCConfigurationList;
@@ -408,6 +415,7 @@
 				13B24E401C8600390092F3E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
