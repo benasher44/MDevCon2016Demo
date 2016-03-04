@@ -13,8 +13,11 @@ let kNumTiles = 100
 let kNumCorgis = 4
 let kCorgiSpacing = CGFloat(10)
 
+let kCorgiSelectionKey = "kCorgiSelectionKey"
+
 class CorgiViewController: UIViewController {
   var collectionView: UICollectionView?
+  var userDefaults = NSUserDefaults.standardUserDefaults()
   
   override func viewDidLoad() {
     super.viewDidLoad()
@@ -33,6 +36,13 @@ class CorgiViewController: UIViewController {
   override func viewDidAppear(animated: Bool) {
     super.viewDidAppear(animated)
     collectionView?.reloadData()
+  
+    // TODO
+//    if (userDefaults)
+  }
+  
+  func didSelectCorgi(atIndex index: Int) {
+    userDefaults.setInteger(index, forKey: kCorgiSelectionKey)
   }
 }
 
@@ -51,6 +61,12 @@ extension CorgiViewController: UICollectionViewDataSource {
     let imageIndex = indexPath.item % kNumCorgis
     corgiCell.image = UIImage(named: "corgi\(imageIndex).jpg")
     return corgiCell
+  }
+}
+
+extension CorgiViewController: UICollectionViewDelegate {
+  func collectionView(collectionView: UICollectionView, didDeselectItemAtIndexPath indexPath: NSIndexPath) {
+    
   }
 }
 
