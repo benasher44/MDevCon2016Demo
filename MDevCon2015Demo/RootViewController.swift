@@ -48,7 +48,7 @@ extension RootViewController: UICollectionViewDataSource {
   func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
     let cell = collectionView.dequeueReusableCellWithReuseIdentifier(String(CorgiCollectionViewCell), forIndexPath: indexPath)
     let corgiCell = cell as! CorgiCollectionViewCell
-    let imageIndex = indexPath.row % kNumCorgis
+    let imageIndex = indexPath.item % kNumCorgis
     corgiCell.image = UIImage(named: "corgi\(imageIndex).jpg")
     return corgiCell
   }
