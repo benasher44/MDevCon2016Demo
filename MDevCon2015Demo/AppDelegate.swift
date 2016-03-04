@@ -16,7 +16,7 @@ public class AppDelegate: UIResponder, UIApplicationDelegate {
     let window = UIWindow(frame: UIScreen.mainScreen().bounds)
     self.window = window
     
-    window.rootViewController = RootViewController()
+    window.rootViewController = CorgiViewController()
     window.makeKeyAndVisible()
     
     return true

@@ -10,7 +10,7 @@
 		13B24E1E1C8600390092F3E5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B24E1D1C8600390092F3E5 /* main.m */; };
 		13B24E371C8600390092F3E5 /* MDevCon2015DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B24E361C8600390092F3E5 /* MDevCon2015DemoTests.m */; };
 		13B24E431C8898000092F3E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B24E421C8898000092F3E5 /* AppDelegate.swift */; };
-		13B24E451C8899870092F3E5 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B24E441C8899870092F3E5 /* RootViewController.swift */; };
+		13B24E451C8899870092F3E5 /* CorgiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B24E441C8899870092F3E5 /* CorgiViewController.swift */; };
 		13B24E471C88A04B0092F3E5 /* CorgiCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B24E461C88A04B0092F3E5 /* CorgiCollectionViewCell.swift */; };
 		13B24E4F1C88A7210092F3E5 /* corgi0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 13B24E4B1C88A7210092F3E5 /* corgi0.jpg */; };
 		13B24E501C88A7210092F3E5 /* corgi1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 13B24E4C1C88A7210092F3E5 /* corgi1.jpg */; };
@@ -38,7 +38,7 @@
 		13B24E381C8600390092F3E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		13B24E411C8897FF0092F3E5 /* MDevCon2015Demo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MDevCon2015Demo-Bridging-Header.h"; sourceTree = "<group>"; };
 		13B24E421C8898000092F3E5 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		13B24E441C8899870092F3E5 /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		13B24E441C8899870092F3E5 /* CorgiViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CorgiViewController.swift; sourceTree = "<group>"; };
 		13B24E461C88A04B0092F3E5 /* CorgiCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CorgiCollectionViewCell.swift; sourceTree = "<group>"; };
 		13B24E4B1C88A7210092F3E5 /* corgi0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = corgi0.jpg; sourceTree = "<group>"; };
 		13B24E4C1C88A7210092F3E5 /* corgi1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = corgi1.jpg; sourceTree = "<group>"; };
@@ -89,7 +89,7 @@
 			children = (
 				13B24E4A1C88A7210092F3E5 /* Images */,
 				13B24E421C8898000092F3E5 /* AppDelegate.swift */,
-				13B24E441C8899870092F3E5 /* RootViewController.swift */,
+				13B24E441C8899870092F3E5 /* CorgiViewController.swift */,
 				13B24E461C88A04B0092F3E5 /* CorgiCollectionViewCell.swift */,
 				13B24E2D1C8600390092F3E5 /* Info.plist */,
 				13B24E1C1C8600390092F3E5 /* Supporting Files */,
@@ -238,7 +238,7 @@
 			files = (
 				13B24E431C8898000092F3E5 /* AppDelegate.swift in Sources */,
 				13B24E1E1C8600390092F3E5 /* main.m in Sources */,
-				13B24E451C8899870092F3E5 /* RootViewController.swift in Sources */,
+				13B24E451C8899870092F3E5 /* CorgiViewController.swift in Sources */,
 				13B24E471C88A04B0092F3E5 /* CorgiCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

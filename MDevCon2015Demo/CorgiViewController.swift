@@ -13,7 +13,7 @@ let kNumTiles = 100
 let kNumCorgis = 4
 let kCorgiSpacing = CGFloat(10)
 
-class RootViewController: UIViewController {
+class CorgiViewController: UIViewController {
   var collectionView: UICollectionView?
   
   override func viewDidLoad() {
@@ -36,7 +36,7 @@ class RootViewController: UIViewController {
   }
 }
 
-extension RootViewController: UICollectionViewDataSource {
+extension CorgiViewController: UICollectionViewDataSource {
   func numberOfSectionsInCollectionView(collectionView: UICollectionView) -> Int {
     return 1;
   }
@@ -54,7 +54,7 @@ extension RootViewController: UICollectionViewDataSource {
   }
 }
 
-extension RootViewController: UICollectionViewDelegateFlowLayout {
+extension CorgiViewController: UICollectionViewDelegateFlowLayout {
   func collectionView(collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAtIndexPath indexPath: NSIndexPath) -> CGSize {
     let corgisPerRow = kNumCorgis / 2
     let corgiSizeDimension = (view.bounds.width - 3 * kCorgiSpacing) / CGFloat(corgisPerRow)
