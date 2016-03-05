@@ -16,3 +16,5 @@ profile
 DerivedData
 .idea/
 Pods
+.bundle
+vendor

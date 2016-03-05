@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		13B24E1E1C8600390092F3E5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B24E1D1C8600390092F3E5 /* main.m */; };
-		13B24E371C8600390092F3E5 /* MDevCon2015DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B24E361C8600390092F3E5 /* MDevCon2015DemoTests.m */; };
 		13B24E431C8898000092F3E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B24E421C8898000092F3E5 /* AppDelegate.swift */; };
 		13B24E451C8899870092F3E5 /* CorgiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B24E441C8899870092F3E5 /* CorgiViewController.swift */; };
 		13B24E471C88A04B0092F3E5 /* CorgiCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B24E461C88A04B0092F3E5 /* CorgiCollectionViewCell.swift */; };
@@ -18,6 +17,10 @@
 		13B24E521C88A7210092F3E5 /* corgi3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 13B24E4E1C88A7210092F3E5 /* corgi3.jpg */; };
 		13B24E541C89F5EC0092F3E5 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13B24E531C89F5EC0092F3E5 /* Launch Screen.storyboard */; };
 		13B24E561C8B6E310092F3E5 /* CorgiViewControllerHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B24E551C8B6E310092F3E5 /* CorgiViewControllerHelpers.swift */; };
+		13B24E581C8B75E40092F3E5 /* CorgiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B24E441C8899870092F3E5 /* CorgiViewController.swift */; };
+		13B24E591C8B76700092F3E5 /* CorgiViewControllerHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B24E551C8B6E310092F3E5 /* CorgiViewControllerHelpers.swift */; };
+		13B24E5A1C8B76740092F3E5 /* CorgiCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B24E461C88A04B0092F3E5 /* CorgiCollectionViewCell.swift */; };
+		13B24E5C1C8B77140092F3E5 /* CorgiImageLoadingTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B24E5B1C8B77140092F3E5 /* CorgiImageLoadingTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +38,6 @@
 		13B24E1D1C8600390092F3E5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		13B24E2D1C8600390092F3E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		13B24E321C8600390092F3E5 /* MDevCon2015DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MDevCon2015DemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B24E361C8600390092F3E5 /* MDevCon2015DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDevCon2015DemoTests.m; sourceTree = "<group>"; };
 		13B24E381C8600390092F3E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		13B24E411C8897FF0092F3E5 /* MDevCon2015Demo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MDevCon2015Demo-Bridging-Header.h"; sourceTree = "<group>"; };
 		13B24E421C8898000092F3E5 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -47,6 +49,7 @@
 		13B24E4E1C88A7210092F3E5 /* corgi3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = corgi3.jpg; sourceTree = "<group>"; };
 		13B24E531C89F5EC0092F3E5 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		13B24E551C8B6E310092F3E5 /* CorgiViewControllerHelpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CorgiViewControllerHelpers.swift; sourceTree = "<group>"; };
+		13B24E5B1C8B77140092F3E5 /* CorgiImageLoadingTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CorgiImageLoadingTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,15 +92,9 @@
 		13B24E1B1C8600390092F3E5 /* MDevCon2015Demo */ = {
 			isa = PBXGroup;
 			children = (
-				13B24E4A1C88A7210092F3E5 /* Images */,
-				13B24E421C8898000092F3E5 /* AppDelegate.swift */,
+				13B24E571C8B714D0092F3E5 /* Not Relevant for Demo */,
 				13B24E441C8899870092F3E5 /* CorgiViewController.swift */,
-				13B24E551C8B6E310092F3E5 /* CorgiViewControllerHelpers.swift */,
-				13B24E461C88A04B0092F3E5 /* CorgiCollectionViewCell.swift */,
-				13B24E2D1C8600390092F3E5 /* Info.plist */,
-				13B24E1C1C8600390092F3E5 /* Supporting Files */,
-				13B24E411C8897FF0092F3E5 /* MDevCon2015Demo-Bridging-Header.h */,
-				13B24E531C89F5EC0092F3E5 /* Launch Screen.storyboard */,
+				13B24E4A1C88A7210092F3E5 /* Images */,
 			);
 			path = MDevCon2015Demo;
 			sourceTree = "<group>";
@@ -113,8 +110,8 @@
 		13B24E351C8600390092F3E5 /* MDevCon2015DemoTests */ = {
 			isa = PBXGroup;
 			children = (
-				13B24E361C8600390092F3E5 /* MDevCon2015DemoTests.m */,
 				13B24E381C8600390092F3E5 /* Info.plist */,
+				13B24E5B1C8B77140092F3E5 /* CorgiImageLoadingTest.swift */,
 			);
 			path = MDevCon2015DemoTests;
 			sourceTree = "<group>";
@@ -128,6 +125,20 @@
 				13B24E4E1C88A7210092F3E5 /* corgi3.jpg */,
 			);
 			path = Images;
+			sourceTree = "<group>";
+		};
+		13B24E571C8B714D0092F3E5 /* Not Relevant for Demo */ = {
+			isa = PBXGroup;
+			children = (
+				13B24E2D1C8600390092F3E5 /* Info.plist */,
+				13B24E411C8897FF0092F3E5 /* MDevCon2015Demo-Bridging-Header.h */,
+				13B24E531C89F5EC0092F3E5 /* Launch Screen.storyboard */,
+				13B24E1C1C8600390092F3E5 /* Supporting Files */,
+				13B24E421C8898000092F3E5 /* AppDelegate.swift */,
+				13B24E551C8B6E310092F3E5 /* CorgiViewControllerHelpers.swift */,
+				13B24E461C88A04B0092F3E5 /* CorgiCollectionViewCell.swift */,
+			);
+			name = "Not Relevant for Demo";
 			sourceTree = "<group>";
 		};
 		69B2AA36FC4614F6270577A7 /* Frameworks */ = {
@@ -189,7 +200,6 @@
 					};
 					13B24E311C8600390092F3E5 = {
 						CreatedOnToolsVersion = 7.2.1;
-						TestTargetID = 13B24E181C8600390092F3E5;
 					};
 				};
 			};
@@ -251,7 +261,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13B24E371C8600390092F3E5 /* MDevCon2015DemoTests.m in Sources */,
+				13B24E591C8B76700092F3E5 /* CorgiViewControllerHelpers.swift in Sources */,
+				13B24E581C8B75E40092F3E5 /* CorgiViewController.swift in Sources */,
+				13B24E5A1C8B76740092F3E5 /* CorgiCollectionViewCell.swift in Sources */,
+				13B24E5C1C8B77140092F3E5 /* CorgiImageLoadingTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -374,24 +387,20 @@
 		13B24E3F1C8600390092F3E5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = MDevCon2015DemoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = benasher44.MDevCon2015DemoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MDevCon2015Demo.app/MDevCon2015Demo";
 			};
 			name = Debug;
 		};
 		13B24E401C8600390092F3E5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = MDevCon2015DemoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = benasher44.MDevCon2015DemoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MDevCon2015Demo.app/MDevCon2015Demo";
 			};
 			name = Release;
 		};
