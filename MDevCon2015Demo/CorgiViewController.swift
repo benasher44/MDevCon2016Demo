@@ -21,14 +21,7 @@ class CorgiViewController: UIViewController {
   
   override func viewDidLoad() {
     super.viewDidLoad()
-    let flowLayout = UICollectionViewFlowLayout()
-    flowLayout.minimumInteritemSpacing = kCorgiSpacing
-    flowLayout.minimumLineSpacing = 0
-    flowLayout.sectionInset = UIEdgeInsets(top: kCorgiSpacing, left: kCorgiSpacing, bottom: kCorgiSpacing, right: kCorgiSpacing)
-    let collectionView = UICollectionView(frame: view.bounds, collectionViewLayout: flowLayout)
-    collectionView.dataSource = self
-    collectionView.delegate = self
-    collectionView.registerClass(CorgiCollectionViewCell.self, forCellWithReuseIdentifier: String(CorgiCollectionViewCell))
+    let collectionView = newCorgiCollectionView()
     view.addSubview(collectionView)
     self.collectionView = collectionView
   }
@@ -42,27 +35,9 @@ class CorgiViewController: UIViewController {
       collectionView?.selectItemAtIndexPath(selectedIndexPath, animated: true, scrollPosition: .CenteredVertically)
     }
   }
-  
+
   func didSelectCorgi(atIndex index: Int) {
     userDefaults.setInteger(index, forKey: kCorgiSelectionKey)
-  }
-}
-
-extension CorgiViewController: UICollectionViewDataSource {
-  func numberOfSectionsInCollectionView(collectionView: UICollectionView) -> Int {
-    return 1;
-  }
-  
-  func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-    return kNumTiles;
-  }
-  
-  func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
-    let cell = collectionView.dequeueReusableCellWithReuseIdentifier(String(CorgiCollectionViewCell), forIndexPath: indexPath)
-    let corgiCell = cell as! CorgiCollectionViewCell
-    let imageIndex = indexPath.item % kNumCorgis
-    corgiCell.image = UIImage(named: "corgi\(imageIndex).jpg")
-    return corgiCell
   }
 }
 
@@ -78,4 +53,17 @@ extension CorgiViewController: UICollectionViewDelegateFlowLayout {
     let corgiSizeDimension = (view.bounds.width - 3 * kCorgiSpacing) / CGFloat(corgisPerRow)
     return CGSize(width: corgiSizeDimension, height: corgiSizeDimension)
   }
+}
+
+extension CorgiViewController: UICollectionViewDataSource {
+
+  func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
+    let cell = collectionView.dequeueReusableCellWithReuseIdentifier(String(CorgiCollectionViewCell), forIndexPath: indexPath) as! CorgiCollectionViewCell
+    let imageIndex = indexPath.item % kNumCorgis
+    cell.image = UIImage(named: "corgi\(imageIndex).jpg")
+    return cell
+  }
+
+  func numberOfSectionsInCollectionView(collectionView: UICollectionView) -> Int { return 1; }
+  func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int { return kNumTiles; }
 }
