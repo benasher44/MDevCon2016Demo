@@ -37,8 +37,10 @@ class CorgiViewController: UIViewController {
     super.viewDidAppear(animated)
     collectionView?.reloadData()
   
-    // TODO
-//    if (userDefaults)
+    if let selectionNum = userDefaults.objectForKey(kCorgiSelectionKey) as? NSNumber {
+      let selectedIndexPath = NSIndexPath(forItem: selectionNum.integerValue, inSection: 0)
+      collectionView?.selectItemAtIndexPath(selectedIndexPath, animated: true, scrollPosition: .CenteredVertically)
+    }
   }
   
   func didSelectCorgi(atIndex index: Int) {
@@ -65,8 +67,8 @@ extension CorgiViewController: UICollectionViewDataSource {
 }
 
 extension CorgiViewController: UICollectionViewDelegate {
-  func collectionView(collectionView: UICollectionView, didDeselectItemAtIndexPath indexPath: NSIndexPath) {
-    
+  func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
+    userDefaults.setInteger(indexPath.item, forKey: kCorgiSelectionKey)
   }
 }
 
