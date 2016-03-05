@@ -11,7 +11,7 @@ import XCTest
 
 class CorgiImageLoadingTestV2: XCTestCase {
   func testCorgiImageLoading() {
-    let index = 9
-    XCTAssertEqual(corgiImageName(NSIndexPath(forItem: index, inSection: 0)), "corgi\(index % kNumCorgis).jpg")
+    let index = 0
+    XCTAssertEqual(corgiImageName(NSIndexPath(forItem: index, inSection: 0)), "corgi0.jpg")
   }
 }

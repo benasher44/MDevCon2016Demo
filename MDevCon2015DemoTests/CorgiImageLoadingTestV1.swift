@@ -14,8 +14,8 @@ class CorgiImageLoadingTestV1: XCTestCase {
     let viewController = CorgiViewController()
     viewController.viewDidLoad() // Ensure collection view is setup
 
-    let index = 9
+    let index = 0
     let cell = viewController.collectionView(viewController.collectionView!, cellForItemAtIndexPath: NSIndexPath(forItem: index, inSection: 0)) as! CorgiCollectionViewCell
-    XCTAssertEqual(cell.image, UIImage(named: "corgi\(index % kNumCorgis).jpg"))
+    XCTAssertEqual(cell.image, UIImage(named: "corgi0.jpg"))
   }
 }
