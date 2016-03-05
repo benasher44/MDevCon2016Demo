@@ -9,7 +9,7 @@
 import Foundation
 import XCTest
 
-class CorgiImageLoadingTest: XCTestCase {
+class CorgiImageLoadingTestV1: XCTestCase {
   func testCorgiImageLoading() {
     let viewController = CorgiViewController()
     viewController.viewDidLoad() // Ensure collection view is setup

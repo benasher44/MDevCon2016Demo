@@ -20,7 +20,10 @@
 		13B24E581C8B75E40092F3E5 /* CorgiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B24E441C8899870092F3E5 /* CorgiViewController.swift */; };
 		13B24E591C8B76700092F3E5 /* CorgiViewControllerHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B24E551C8B6E310092F3E5 /* CorgiViewControllerHelpers.swift */; };
 		13B24E5A1C8B76740092F3E5 /* CorgiCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B24E461C88A04B0092F3E5 /* CorgiCollectionViewCell.swift */; };
-		13B24E5C1C8B77140092F3E5 /* CorgiImageLoadingTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B24E5B1C8B77140092F3E5 /* CorgiImageLoadingTest.swift */; };
+		13B24E5E1C8B7B6D0092F3E5 /* CorgiImageHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B24E5D1C8B7B6D0092F3E5 /* CorgiImageHelpers.swift */; };
+		13B24E5F1C8B7B720092F3E5 /* CorgiImageHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B24E5D1C8B7B6D0092F3E5 /* CorgiImageHelpers.swift */; };
+		13B24E611C8B7C8D0092F3E5 /* CorgiImageLoadingTestV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B24E601C8B7C8D0092F3E5 /* CorgiImageLoadingTestV2.swift */; };
+		13B24E621C8B7CDE0092F3E5 /* CorgiImageLoadingTestV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B24E5B1C8B77140092F3E5 /* CorgiImageLoadingTestV1.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,7 +52,9 @@
 		13B24E4E1C88A7210092F3E5 /* corgi3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = corgi3.jpg; sourceTree = "<group>"; };
 		13B24E531C89F5EC0092F3E5 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		13B24E551C8B6E310092F3E5 /* CorgiViewControllerHelpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CorgiViewControllerHelpers.swift; sourceTree = "<group>"; };
-		13B24E5B1C8B77140092F3E5 /* CorgiImageLoadingTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CorgiImageLoadingTest.swift; sourceTree = "<group>"; };
+		13B24E5B1C8B77140092F3E5 /* CorgiImageLoadingTestV1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CorgiImageLoadingTestV1.swift; sourceTree = "<group>"; };
+		13B24E5D1C8B7B6D0092F3E5 /* CorgiImageHelpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CorgiImageHelpers.swift; sourceTree = "<group>"; };
+		13B24E601C8B7C8D0092F3E5 /* CorgiImageLoadingTestV2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CorgiImageLoadingTestV2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +99,7 @@
 			children = (
 				13B24E571C8B714D0092F3E5 /* Not Relevant for Demo */,
 				13B24E441C8899870092F3E5 /* CorgiViewController.swift */,
+				13B24E5D1C8B7B6D0092F3E5 /* CorgiImageHelpers.swift */,
 				13B24E4A1C88A7210092F3E5 /* Images */,
 			);
 			path = MDevCon2015Demo;
@@ -111,7 +117,8 @@
 			isa = PBXGroup;
 			children = (
 				13B24E381C8600390092F3E5 /* Info.plist */,
-				13B24E5B1C8B77140092F3E5 /* CorgiImageLoadingTest.swift */,
+				13B24E5B1C8B77140092F3E5 /* CorgiImageLoadingTestV1.swift */,
+				13B24E601C8B7C8D0092F3E5 /* CorgiImageLoadingTestV2.swift */,
 			);
 			path = MDevCon2015DemoTests;
 			sourceTree = "<group>";
@@ -251,6 +258,7 @@
 			files = (
 				13B24E431C8898000092F3E5 /* AppDelegate.swift in Sources */,
 				13B24E1E1C8600390092F3E5 /* main.m in Sources */,
+				13B24E5E1C8B7B6D0092F3E5 /* CorgiImageHelpers.swift in Sources */,
 				13B24E451C8899870092F3E5 /* CorgiViewController.swift in Sources */,
 				13B24E471C88A04B0092F3E5 /* CorgiCollectionViewCell.swift in Sources */,
 				13B24E561C8B6E310092F3E5 /* CorgiViewControllerHelpers.swift in Sources */,
@@ -264,7 +272,9 @@
 				13B24E591C8B76700092F3E5 /* CorgiViewControllerHelpers.swift in Sources */,
 				13B24E581C8B75E40092F3E5 /* CorgiViewController.swift in Sources */,
 				13B24E5A1C8B76740092F3E5 /* CorgiCollectionViewCell.swift in Sources */,
-				13B24E5C1C8B77140092F3E5 /* CorgiImageLoadingTest.swift in Sources */,
+				13B24E611C8B7C8D0092F3E5 /* CorgiImageLoadingTestV2.swift in Sources */,
+				13B24E621C8B7CDE0092F3E5 /* CorgiImageLoadingTestV1.swift in Sources */,
+				13B24E5F1C8B7B720092F3E5 /* CorgiImageHelpers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
