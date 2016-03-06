@@ -7,7 +7,6 @@
 //
 
 import Foundation
-import UIKit
 
 func corgiImageName(indexPath: NSIndexPath) -> String {
   let imageIndex = indexPath.item % kNumCorgis
