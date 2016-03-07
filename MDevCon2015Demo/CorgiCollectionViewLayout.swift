@@ -9,6 +9,8 @@
 import Foundation
 import UIKit
 
+let kCorgiSpacing = CGFloat(10)
+
 extension CorgiViewController: UICollectionViewDelegateFlowLayout {
   func collectionView(collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAtIndexPath indexPath: NSIndexPath) -> CGSize {
     let corgisPerRow = kNumCorgis / 2

@@ -11,7 +11,6 @@ import UIKit
 
 let kNumTiles = 100
 let kNumCorgis = 4
-let kCorgiSpacing = CGFloat(10)
 
 class CorgiViewController: UIViewController {
   var collectionView: UICollectionView?
