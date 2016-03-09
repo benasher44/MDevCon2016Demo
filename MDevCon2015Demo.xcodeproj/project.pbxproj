@@ -22,14 +22,14 @@
 		13B24E5A1C8B76740092F3E5 /* CorgiCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B24E461C88A04B0092F3E5 /* CorgiCollectionViewCell.swift */; };
 		13B24E5E1C8B7B6D0092F3E5 /* CorgiImageHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B24E5D1C8B7B6D0092F3E5 /* CorgiImageHelpers.swift */; };
 		13B24E5F1C8B7B720092F3E5 /* CorgiImageHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B24E5D1C8B7B6D0092F3E5 /* CorgiImageHelpers.swift */; };
-		13B24E611C8B7C8D0092F3E5 /* CorgiImageLoadingTestV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B24E601C8B7C8D0092F3E5 /* CorgiImageLoadingTestV2.swift */; };
 		13B24E621C8B7CDE0092F3E5 /* CorgiImageLoadingTestV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B24E5B1C8B77140092F3E5 /* CorgiImageLoadingTestV1.swift */; };
-		13B24E641C8B968E0092F3E5 /* CorgiSelectionTestV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B24E631C8B968E0092F3E5 /* CorgiSelectionTestV1.swift */; };
 		13B24E661C8B9DAE0092F3E5 /* CorgiSelectionSaver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B24E651C8B9DAE0092F3E5 /* CorgiSelectionSaver.swift */; };
 		13B24E681C8B9FE70092F3E5 /* CorgiCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B24E671C8B9FE70092F3E5 /* CorgiCollectionViewLayout.swift */; };
 		13B24E691C8BA0330092F3E5 /* CorgiSelectionSaver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B24E651C8B9DAE0092F3E5 /* CorgiSelectionSaver.swift */; };
 		13B24E6D1C8BA8F90092F3E5 /* CorgiSelectionStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B24E6C1C8BA8F90092F3E5 /* CorgiSelectionStore.swift */; };
 		13B24E6E1C8BA9760092F3E5 /* CorgiSelectionStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B24E6C1C8BA8F90092F3E5 /* CorgiSelectionStore.swift */; };
+		A82A6BAB1C8FA01E002F7D78 /* NumberMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B24E6A1C8BA8AC0092F3E5 /* NumberMap.swift */; };
+		A82A6BAC1C8FA053002F7D78 /* CorgiCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B24E671C8B9FE70092F3E5 /* CorgiCollectionViewLayout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,10 +61,10 @@
 		13B24E5B1C8B77140092F3E5 /* CorgiImageLoadingTestV1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CorgiImageLoadingTestV1.swift; sourceTree = "<group>"; };
 		13B24E5D1C8B7B6D0092F3E5 /* CorgiImageHelpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CorgiImageHelpers.swift; sourceTree = "<group>"; };
 		13B24E601C8B7C8D0092F3E5 /* CorgiImageLoadingTestV2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CorgiImageLoadingTestV2.swift; sourceTree = "<group>"; };
-		13B24E631C8B968E0092F3E5 /* CorgiSelectionTestV1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CorgiSelectionTestV1.swift; sourceTree = "<group>"; };
+		13B24E631C8B968E0092F3E5 /* CorgiSelectionTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CorgiSelectionTest.swift; sourceTree = "<group>"; };
 		13B24E651C8B9DAE0092F3E5 /* CorgiSelectionSaver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CorgiSelectionSaver.swift; sourceTree = "<group>"; };
 		13B24E671C8B9FE70092F3E5 /* CorgiCollectionViewLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CorgiCollectionViewLayout.swift; sourceTree = "<group>"; };
-		13B24E6A1C8BA8AC0092F3E5 /* CorgiSelectionTestV2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CorgiSelectionTestV2.swift; sourceTree = "<group>"; };
+		13B24E6A1C8BA8AC0092F3E5 /* NumberMap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumberMap.swift; sourceTree = "<group>"; };
 		13B24E6C1C8BA8F90092F3E5 /* CorgiSelectionStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CorgiSelectionStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -132,8 +132,8 @@
 				13B24E381C8600390092F3E5 /* Info.plist */,
 				13B24E5B1C8B77140092F3E5 /* CorgiImageLoadingTestV1.swift */,
 				13B24E601C8B7C8D0092F3E5 /* CorgiImageLoadingTestV2.swift */,
-				13B24E631C8B968E0092F3E5 /* CorgiSelectionTestV1.swift */,
-				13B24E6A1C8BA8AC0092F3E5 /* CorgiSelectionTestV2.swift */,
+				13B24E631C8B968E0092F3E5 /* CorgiSelectionTest.swift */,
+				13B24E6A1C8BA8AC0092F3E5 /* NumberMap.swift */,
 			);
 			path = MDevCon2015DemoTests;
 			sourceTree = "<group>";
@@ -291,11 +291,11 @@
 				13B24E591C8B76700092F3E5 /* CorgiViewControllerHelpers.swift in Sources */,
 				13B24E6E1C8BA9760092F3E5 /* CorgiSelectionStore.swift in Sources */,
 				13B24E581C8B75E40092F3E5 /* CorgiViewController.swift in Sources */,
+				A82A6BAB1C8FA01E002F7D78 /* NumberMap.swift in Sources */,
 				13B24E5A1C8B76740092F3E5 /* CorgiCollectionViewCell.swift in Sources */,
-				13B24E611C8B7C8D0092F3E5 /* CorgiImageLoadingTestV2.swift in Sources */,
 				13B24E621C8B7CDE0092F3E5 /* CorgiImageLoadingTestV1.swift in Sources */,
 				13B24E5F1C8B7B720092F3E5 /* CorgiImageHelpers.swift in Sources */,
-				13B24E641C8B968E0092F3E5 /* CorgiSelectionTestV1.swift in Sources */,
+				A82A6BAC1C8FA053002F7D78 /* CorgiCollectionViewLayout.swift in Sources */,
 				13B24E691C8BA0330092F3E5 /* CorgiSelectionSaver.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -25,21 +25,3 @@ class NumberMap: CorgiSelectionStore {
     return dict[defaultName]
   }
 }
-
-
-
-class CorgiSelectionTestV2: XCTestCase {
-  func testCorgiSelectionSaver() {
-    let store = NumberMap()
-    let saver = CorgiSelectionSaver()
-    saver.userDefaults = store
-
-    // Make sure we start with no selection
-    XCTAssertNil(saver.loadCorgiSelection())
-
-    let indexPath = NSIndexPath(forItem: 5, inSection: 0)
-    saver.saveCorgiSelection(indexPath)
-
-    XCTAssertEqual(store.integerForKey(kCorgiSelectionKey), indexPath.item)
-  }
-}

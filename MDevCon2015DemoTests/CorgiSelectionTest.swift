@@ -9,7 +9,7 @@
 import Foundation
 import XCTest
 
-class CorgiSelectionTestV1: XCTestCase {
+class CorgiSelectionTest: XCTestCase {
   func testCorgiSelectionSaver() {
     let saver = CorgiSelectionSaver()
 
