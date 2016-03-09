@@ -15,7 +15,7 @@ extension CorgiViewController {
     flowLayout.minimumInteritemSpacing = kCorgiSpacing
     flowLayout.minimumLineSpacing = 0
     flowLayout.sectionInset = UIEdgeInsets(top: kCorgiSpacing, left: kCorgiSpacing, bottom: kCorgiSpacing, right: kCorgiSpacing)
-    let collectionView = UICollectionView(frame: view.bounds, collectionViewLayout: flowLayout)
+    let collectionView = UICollectionView(frame: CGRectZero, collectionViewLayout: flowLayout)
     collectionView.dataSource = self
     collectionView.delegate = self
     collectionView.registerClass(CorgiCollectionViewCell.self, forCellWithReuseIdentifier: String(CorgiCollectionViewCell))
