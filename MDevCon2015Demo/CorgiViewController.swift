@@ -11,10 +11,9 @@ import UIKit
 
 class CorgiViewController: UIViewController {
   let controller = CorgiCollectionController()
-  
-  override func viewDidLoad() {
-    super.viewDidLoad()
-    view.addSubview(controller.collectionView)
+
+  override func loadView() {
+    view = controller.collectionView
   }
   
   override func viewDidAppear(animated: Bool) {
