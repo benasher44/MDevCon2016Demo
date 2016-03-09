@@ -33,6 +33,10 @@ class CorgiCollectionController: NSObject {
       collectionView.selectItemAtIndexPath(selection, animated: true, scrollPosition: .CenteredVertically)
     }
   }
+
+  func loadCorgis() {
+    collectionView.reloadData()
+  }
 }
 
 extension CorgiCollectionController: UICollectionViewDelegate {

@@ -18,12 +18,7 @@ class CorgiViewController: UIViewController {
   
   override func viewDidAppear(animated: Bool) {
     super.viewDidAppear(animated)
-    controller.collectionView.reloadData()
+    controller.loadCorgis()
     controller.loadRecentCorgiSelection()
-  }
-
-  override func viewDidLayoutSubviews() {
-    super.viewDidLayoutSubviews()
-    controller.collectionView.frame = view.bounds
   }
 }
