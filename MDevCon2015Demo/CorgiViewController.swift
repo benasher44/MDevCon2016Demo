@@ -9,45 +9,22 @@
 import Foundation
 import UIKit
 
-let kNumTiles = 100
-let kNumCorgis = 4
-
 class CorgiViewController: UIViewController {
-  var collectionView: UICollectionView?
-  private let selectionSaver = CorgiSelectionSaver()
+  let controller = CorgiCollectionController()
   
   override func viewDidLoad() {
     super.viewDidLoad()
-    let collectionView = newCorgiCollectionView()
-    view.addSubview(collectionView)
-    self.collectionView = collectionView
+    view.addSubview(controller.collectionView)
   }
   
   override func viewDidAppear(animated: Bool) {
     super.viewDidAppear(animated)
-    collectionView?.reloadData()
-    if let selection = selectionSaver.loadCorgiSelection() {
-      collectionView?.selectItemAtIndexPath(selection, animated: true, scrollPosition: .CenteredVertically)
-    }
-  }
-}
-
-extension CorgiViewController: UICollectionViewDelegate {
-  func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
-    selectionSaver.saveCorgiSelection(indexPath)
-  }
-}
-
-extension CorgiViewController: UICollectionViewDataSource {
-
-  func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
-    let cell = collectionView.dequeueReusableCellWithReuseIdentifier(String(CorgiCollectionViewCell), forIndexPath: indexPath) as! CorgiCollectionViewCell
-    let imageIndex = indexPath.item % kNumCorgis
-    let imageName = "corgi\(imageIndex).jpg"
-    cell.image = UIImage(named: imageName)
-    return cell
+    controller.collectionView.reloadData()
+    controller.loadRecentCorgiSelection()
   }
 
-  func numberOfSectionsInCollectionView(collectionView: UICollectionView) -> Int { return 1; }
-  func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int { return kNumTiles; }
+  override func viewDidLayoutSubviews() {
+    super.viewDidLayoutSubviews()
+    controller.collectionView.frame = view.bounds
+  }
 }
