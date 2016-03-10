@@ -17,10 +17,6 @@ class NumberMap: CorgiSelectionStore {
     dict[defaultName] = NSNumber(integer: value)
   }
 
-  func integerForKey(defaultName: String) -> Int {
-    return dict[defaultName]?.integerValue ?? 0
-  }
-
   func objectForKey(defaultName: String) -> AnyObject? {
     return dict[defaultName]
   }
