@@ -12,7 +12,7 @@ import XCTest
 class CorgiImageLoadingTestV1: XCTestCase {
   func testCorgiImageLoading() {
     let viewController = CorgiViewController()
-    viewController.viewDidLoad() // Ensure collection view is setup
+    viewController.loadViewIfNeeded() // Ensure collection view is setup
 
     let index = 0
     let cell = viewController.collectionView(viewController.collectionView!, cellForItemAtIndexPath: NSIndexPath(forItem: index, inSection: 0)) as! CorgiCollectionViewCell

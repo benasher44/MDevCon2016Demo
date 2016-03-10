@@ -19,6 +19,6 @@ class CorgiSelectionTest: XCTestCase {
     let indexPath = NSIndexPath(forItem: 5, inSection: 0)
     saver.saveCorgiSelection(indexPath)
 
-    XCTAssertEqual(NSUserDefaults.standardUserDefaults().integerForKey(kCorgiSelectionKey), indexPath.item)
+    XCTAssertEqual(saver.loadCorgiSelection(), indexPath)
   }
 }
