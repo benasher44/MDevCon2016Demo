@@ -11,7 +11,6 @@ import Foundation
 protocol CorgiSelectionStore {
   func objectForKey(defaultName: String) -> AnyObject?
   func setInteger(value: Int, forKey defaultName: String)
-  func integerForKey(defaultName: String) -> Int
 }
 
 extension NSUserDefaults: CorgiSelectionStore {}
