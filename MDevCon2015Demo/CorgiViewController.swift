@@ -17,7 +17,8 @@ class CorgiViewController: UIViewController {
   private let selectionSaver = CorgiSelectionSaver()
   
   override func loadView() {
-    view = newCorgiCollectionView()
+    collectionView = newCorgiCollectionView()
+    view = collectionView
   }
   
   override func viewDidAppear(animated: Bool) {
