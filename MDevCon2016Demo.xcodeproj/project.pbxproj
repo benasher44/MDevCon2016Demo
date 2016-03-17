@@ -38,17 +38,16 @@
 			containerPortal = 13B24E111C8600390092F3E5 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B24E181C8600390092F3E5;
-			remoteInfo = MDevCon2015Demo;
+			remoteInfo = MDevCon2016Demo;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		13B24E191C8600390092F3E5 /* MDevCon2015Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MDevCon2015Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B24E191C8600390092F3E5 /* MDevCon2016Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MDevCon2016Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B24E1D1C8600390092F3E5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		13B24E2D1C8600390092F3E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		13B24E321C8600390092F3E5 /* MDevCon2015DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MDevCon2015DemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B24E321C8600390092F3E5 /* MDevCon2016DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MDevCon2016DemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B24E381C8600390092F3E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		13B24E411C8897FF0092F3E5 /* MDevCon2015Demo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MDevCon2015Demo-Bridging-Header.h"; sourceTree = "<group>"; };
 		13B24E421C8898000092F3E5 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		13B24E441C8899870092F3E5 /* CorgiViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CorgiViewController.swift; sourceTree = "<group>"; };
 		13B24E461C88A04B0092F3E5 /* CorgiCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CorgiCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -89,8 +88,8 @@
 		13B24E101C8600390092F3E5 = {
 			isa = PBXGroup;
 			children = (
-				13B24E1B1C8600390092F3E5 /* MDevCon2015Demo */,
-				13B24E351C8600390092F3E5 /* MDevCon2015DemoTests */,
+				13B24E1B1C8600390092F3E5 /* MDevCon2016Demo */,
+				13B24E351C8600390092F3E5 /* MDevCon2016DemoTests */,
 				13B24E1A1C8600390092F3E5 /* Products */,
 				69B2AA36FC4614F6270577A7 /* Frameworks */,
 			);
@@ -99,13 +98,13 @@
 		13B24E1A1C8600390092F3E5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B24E191C8600390092F3E5 /* MDevCon2015Demo.app */,
-				13B24E321C8600390092F3E5 /* MDevCon2015DemoTests.xctest */,
+				13B24E191C8600390092F3E5 /* MDevCon2016Demo.app */,
+				13B24E321C8600390092F3E5 /* MDevCon2016DemoTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		13B24E1B1C8600390092F3E5 /* MDevCon2015Demo */ = {
+		13B24E1B1C8600390092F3E5 /* MDevCon2016Demo */ = {
 			isa = PBXGroup;
 			children = (
 				13B24E571C8B714D0092F3E5 /* Not Relevant for Demo */,
@@ -115,7 +114,7 @@
 				13B24E6C1C8BA8F90092F3E5 /* CorgiSelectionStore.swift */,
 				13B24E4A1C88A7210092F3E5 /* Images */,
 			);
-			path = MDevCon2015Demo;
+			path = MDevCon2016Demo;
 			sourceTree = "<group>";
 		};
 		13B24E1C1C8600390092F3E5 /* Supporting Files */ = {
@@ -126,7 +125,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		13B24E351C8600390092F3E5 /* MDevCon2015DemoTests */ = {
+		13B24E351C8600390092F3E5 /* MDevCon2016DemoTests */ = {
 			isa = PBXGroup;
 			children = (
 				13B24E381C8600390092F3E5 /* Info.plist */,
@@ -135,7 +134,7 @@
 				13B24E631C8B968E0092F3E5 /* CorgiSelectionTest.swift */,
 				13B24E6A1C8BA8AC0092F3E5 /* NumberMap.swift */,
 			);
-			path = MDevCon2015DemoTests;
+			path = MDevCon2016DemoTests;
 			sourceTree = "<group>";
 		};
 		13B24E4A1C88A7210092F3E5 /* Images */ = {
@@ -153,7 +152,6 @@
 			isa = PBXGroup;
 			children = (
 				13B24E2D1C8600390092F3E5 /* Info.plist */,
-				13B24E411C8897FF0092F3E5 /* MDevCon2015Demo-Bridging-Header.h */,
 				13B24E531C89F5EC0092F3E5 /* Launch Screen.storyboard */,
 				13B24E1C1C8600390092F3E5 /* Supporting Files */,
 				13B24E421C8898000092F3E5 /* AppDelegate.swift */,
@@ -174,9 +172,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		13B24E181C8600390092F3E5 /* MDevCon2015Demo */ = {
+		13B24E181C8600390092F3E5 /* MDevCon2016Demo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B24E3B1C8600390092F3E5 /* Build configuration list for PBXNativeTarget "MDevCon2015Demo" */;
+			buildConfigurationList = 13B24E3B1C8600390092F3E5 /* Build configuration list for PBXNativeTarget "MDevCon2016Demo" */;
 			buildPhases = (
 				13B24E151C8600390092F3E5 /* Sources */,
 				13B24E161C8600390092F3E5 /* Frameworks */,
@@ -186,14 +184,14 @@
 			);
 			dependencies = (
 			);
-			name = MDevCon2015Demo;
-			productName = MDevCon2015Demo;
-			productReference = 13B24E191C8600390092F3E5 /* MDevCon2015Demo.app */;
+			name = MDevCon2016Demo;
+			productName = MDevCon2016Demo;
+			productReference = 13B24E191C8600390092F3E5 /* MDevCon2016Demo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		13B24E311C8600390092F3E5 /* MDevCon2015DemoTests */ = {
+		13B24E311C8600390092F3E5 /* MDevCon2016DemoTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B24E3E1C8600390092F3E5 /* Build configuration list for PBXNativeTarget "MDevCon2015DemoTests" */;
+			buildConfigurationList = 13B24E3E1C8600390092F3E5 /* Build configuration list for PBXNativeTarget "MDevCon2016DemoTests" */;
 			buildPhases = (
 				13B24E2E1C8600390092F3E5 /* Sources */,
 				13B24E2F1C8600390092F3E5 /* Frameworks */,
@@ -204,9 +202,9 @@
 			dependencies = (
 				13B24E341C8600390092F3E5 /* PBXTargetDependency */,
 			);
-			name = MDevCon2015DemoTests;
-			productName = MDevCon2015DemoTests;
-			productReference = 13B24E321C8600390092F3E5 /* MDevCon2015DemoTests.xctest */;
+			name = MDevCon2016DemoTests;
+			productName = MDevCon2016DemoTests;
+			productReference = 13B24E321C8600390092F3E5 /* MDevCon2016DemoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -226,7 +224,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 13B24E141C8600390092F3E5 /* Build configuration list for PBXProject "MDevCon2015Demo" */;
+			buildConfigurationList = 13B24E141C8600390092F3E5 /* Build configuration list for PBXProject "MDevCon2016Demo" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -239,8 +237,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B24E181C8600390092F3E5 /* MDevCon2015Demo */,
-				13B24E311C8600390092F3E5 /* MDevCon2015DemoTests */,
+				13B24E181C8600390092F3E5 /* MDevCon2016Demo */,
+				13B24E311C8600390092F3E5 /* MDevCon2016DemoTests */,
 			);
 		};
 /* End PBXProject section */
@@ -305,7 +303,7 @@
 /* Begin PBXTargetDependency section */
 		13B24E341C8600390092F3E5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B24E181C8600390092F3E5 /* MDevCon2015Demo */;
+			target = 13B24E181C8600390092F3E5 /* MDevCon2016Demo */;
 			targetProxy = 13B24E331C8600390092F3E5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -395,11 +393,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
-				INFOPLIST_FILE = MDevCon2015Demo/Info.plist;
+				INFOPLIST_FILE = MDevCon2016Demo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = benasher44.MDevCon2015Demo;
+				PRODUCT_BUNDLE_IDENTIFIER = benasher44.MDevCon2016Demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "MDevCon2015Demo/MDevCon2015Demo-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -408,20 +405,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
-				INFOPLIST_FILE = MDevCon2015Demo/Info.plist;
+				INFOPLIST_FILE = MDevCon2016Demo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = benasher44.MDevCon2015Demo;
+				PRODUCT_BUNDLE_IDENTIFIER = benasher44.MDevCon2016Demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "MDevCon2015Demo/MDevCon2015Demo-Bridging-Header.h";
 			};
 			name = Release;
 		};
 		13B24E3F1C8600390092F3E5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				INFOPLIST_FILE = MDevCon2015DemoTests/Info.plist;
+				INFOPLIST_FILE = MDevCon2016DemoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = benasher44.MDevCon2015DemoTests;
+				PRODUCT_BUNDLE_IDENTIFIER = benasher44.MDevCon2016DemoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -429,9 +425,9 @@
 		13B24E401C8600390092F3E5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				INFOPLIST_FILE = MDevCon2015DemoTests/Info.plist;
+				INFOPLIST_FILE = MDevCon2016DemoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = benasher44.MDevCon2015DemoTests;
+				PRODUCT_BUNDLE_IDENTIFIER = benasher44.MDevCon2016DemoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -439,7 +435,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		13B24E141C8600390092F3E5 /* Build configuration list for PBXProject "MDevCon2015Demo" */ = {
+		13B24E141C8600390092F3E5 /* Build configuration list for PBXProject "MDevCon2016Demo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B24E391C8600390092F3E5 /* Debug */,
@@ -448,7 +444,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B24E3B1C8600390092F3E5 /* Build configuration list for PBXNativeTarget "MDevCon2015Demo" */ = {
+		13B24E3B1C8600390092F3E5 /* Build configuration list for PBXNativeTarget "MDevCon2016Demo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B24E3C1C8600390092F3E5 /* Debug */,
@@ -457,7 +453,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B24E3E1C8600390092F3E5 /* Build configuration list for PBXNativeTarget "MDevCon2015DemoTests" */ = {
+		13B24E3E1C8600390092F3E5 /* Build configuration list for PBXNativeTarget "MDevCon2016DemoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B24E3F1C8600390092F3E5 /* Debug */,

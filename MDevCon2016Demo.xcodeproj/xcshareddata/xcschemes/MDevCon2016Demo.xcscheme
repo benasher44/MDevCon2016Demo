@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "13B24E181C8600390092F3E5"
-               BuildableName = "MDevCon2015Demo.app"
-               BlueprintName = "MDevCon2015Demo"
-               ReferencedContainer = "container:MDevCon2015Demo.xcodeproj">
+               BuildableName = "MDevCon2016Demo.app"
+               BlueprintName = "MDevCon2016Demo"
+               ReferencedContainer = "container:MDevCon2016Demo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "13B24E311C8600390092F3E5"
-               BuildableName = "MDevCon2015DemoTests.xctest"
-               BlueprintName = "MDevCon2015DemoTests"
-               ReferencedContainer = "container:MDevCon2015Demo.xcodeproj">
+               BuildableName = "MDevCon2016DemoTests.xctest"
+               BlueprintName = "MDevCon2016DemoTests"
+               ReferencedContainer = "container:MDevCon2016Demo.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B24E181C8600390092F3E5"
-            BuildableName = "MDevCon2015Demo.app"
-            BlueprintName = "MDevCon2015Demo"
-            ReferencedContainer = "container:MDevCon2015Demo.xcodeproj">
+            BuildableName = "MDevCon2016Demo.app"
+            BlueprintName = "MDevCon2016Demo"
+            ReferencedContainer = "container:MDevCon2016Demo.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -66,9 +66,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B24E181C8600390092F3E5"
-            BuildableName = "MDevCon2015Demo.app"
-            BlueprintName = "MDevCon2015Demo"
-            ReferencedContainer = "container:MDevCon2015Demo.xcodeproj">
+            BuildableName = "MDevCon2016Demo.app"
+            BlueprintName = "MDevCon2016Demo"
+            ReferencedContainer = "container:MDevCon2016Demo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -85,9 +85,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B24E181C8600390092F3E5"
-            BuildableName = "MDevCon2015Demo.app"
-            BlueprintName = "MDevCon2015Demo"
-            ReferencedContainer = "container:MDevCon2015Demo.xcodeproj">
+            BuildableName = "MDevCon2016Demo.app"
+            BlueprintName = "MDevCon2016Demo"
+            ReferencedContainer = "container:MDevCon2016Demo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
