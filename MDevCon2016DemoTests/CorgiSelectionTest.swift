@@ -1,6 +1,6 @@
 //
 //  CorgiSelectionTest.swift
-//  MDevCon2015Demo
+//  MDevCon2016Demo
 //
 //  Created by Benjamin Asher on 3/5/16.
 //  Copyright © 2016 Benjamin Asher. All rights reserved.
@@ -19,6 +19,6 @@ class CorgiSelectionTest: XCTestCase {
     let indexPath = NSIndexPath(forItem: 5, inSection: 0)
     saver.saveCorgiSelection(indexPath)
 
-    XCTAssertEqual(NSUserDefaults.standardUserDefaults().integerForKey(kCorgiSelectionKey), indexPath.item)
+    XCTAssertEqual(saver.loadCorgiSelection(), indexPath)
   }
 }

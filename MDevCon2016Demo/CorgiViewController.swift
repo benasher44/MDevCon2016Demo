@@ -1,6 +1,6 @@
 //
 //  RootViewController.swift
-//  MDevCon2015Demo
+//  MDevCon2016Demo
 //
 //  Created by Benjamin Asher on 3/3/16.
 //  Copyright © 2016 Benjamin Asher. All rights reserved.
@@ -15,7 +15,7 @@ class CorgiViewController: UIViewController {
   override func loadView() {
     view = controller.collectionView
   }
-  
+
   override func viewDidAppear(animated: Bool) {
     super.viewDidAppear(animated)
     controller.loadCorgis()
